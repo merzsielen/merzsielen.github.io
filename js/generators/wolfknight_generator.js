@@ -20,7 +20,6 @@ function PointRollD6s(num) {
 function RollWK() {
     document.getElementById("attribute_v").innerHTML = PointRollD6s(2) + 1;
     document.getElementById("attribute_i").innerHTML = PointRollD6s(2) + 1;
-    document.getElementById("attribute_c").innerHTML = PointRollD6s(2) + 1;
     document.getElementById("guard_e").innerHTML = PointRollD6s(3) + 4;
     document.getElementById("guard_w").innerHTML = PointRollD6s(3) + 4;
 }
